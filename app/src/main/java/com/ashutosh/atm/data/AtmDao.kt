@@ -1,6 +1,6 @@
 package com.ashutosh.atm.data
 
-import androidx.lifecycle.LiveData
+
 import androidx.room.*
 import com.ashutosh.atm.model.AtmModel
 

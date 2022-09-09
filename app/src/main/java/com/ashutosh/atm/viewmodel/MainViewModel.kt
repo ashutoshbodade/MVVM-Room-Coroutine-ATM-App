@@ -113,35 +113,6 @@ class MainViewModel @Inject constructor(private val mainRepository: MainReposito
         return notes
     }
 
-//    fun getTwoThouNotes(amt: Int,availableNotes:Int):Int{
-//        var notes = 0
-//        val amount = amt
-//        for (i in amount downTo 0 step 100)
-//        {
-//            if(i%2000 == 0 && i/2000 <= availableNotes){
-//                notes = i/2000
-//                break
-//            }
-//        }
-//        return notes
-//    }
-//
-//
-//
-//    fun getFiveHunNotes(amt: Int, availableNotes: Int, twoThNotesAmt: Int): Int {
-//        var notes = 0
-//        val amount = amt - twoThNotesAmt
-//        if (amount >= 100) {
-//            for (i in amount downTo 0 step 100) {
-//                if (i % 500 == 0 && i / 500 <= availableNotes) {
-//                    notes = i / 500
-//                    break
-//                }
-//            }
-//        }
-//        return notes
-//    }
-
 
 
     fun validate(amount: String):Pair<Boolean,String>{

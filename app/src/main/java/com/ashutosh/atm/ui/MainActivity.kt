@@ -25,9 +25,6 @@ class MainActivity : AppCompatActivity() {
 
     private val mainViewModel:MainViewModel by viewModels()
 
-    private val TAG = "MainActivity"
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         _binding = ActivityMainBinding.inflate(layoutInflater)

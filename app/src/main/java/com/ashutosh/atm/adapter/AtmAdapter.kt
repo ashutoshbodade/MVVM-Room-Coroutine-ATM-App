@@ -4,7 +4,6 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.ashutosh.atm.databinding.RowAtmBalanceBinding
-import com.ashutosh.atm.databinding.RowAtmTranBinding
 import com.ashutosh.atm.model.AtmModel
 
 class AtmAdapter(private val itemListData: List<AtmModel>) : RecyclerView.Adapter<AtmAdapter.ViewHolder>() {
